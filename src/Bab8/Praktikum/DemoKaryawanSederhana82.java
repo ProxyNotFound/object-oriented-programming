@@ -1,5 +1,4 @@
 package Bab8.Praktikum;
-
 public class DemoKaryawanSederhana82 {
     public static void main(String[] args) {
         KaryawanTetap82 tetap = new KaryawanTetap82("Budi", 5000000, 1000000);

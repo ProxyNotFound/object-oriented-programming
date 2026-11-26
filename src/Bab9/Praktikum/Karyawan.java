@@ -1,5 +1,4 @@
 package Bab9.Praktikum;
-
 public abstract class Karyawan {
     private String nama;
     private double gajiPokok;

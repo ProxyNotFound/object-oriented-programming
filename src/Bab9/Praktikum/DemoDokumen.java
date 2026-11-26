@@ -1,5 +1,4 @@
 package Bab9.Praktikum;
-
 public class DemoDokumen {
     public static void main(String[] args) {
         Laporan laporan = new Laporan("Laporan Keuangan");

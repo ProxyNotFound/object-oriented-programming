@@ -1,5 +1,4 @@
 package Bab9.Praktikum;
-
 public class DemoNotifikasi {
     public static void main(String[] args) {
         NotifikasiEmail email = new NotifikasiEmail("andi@mail.com");

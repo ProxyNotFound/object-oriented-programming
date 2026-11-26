@@ -8,7 +8,7 @@ public class DemoProduk76 {
         String nama = input.nextLine();
         System.out.print("Masukkan harga produk: ");
         double harga = input.nextDouble();
-        Produk produk = new Produk(nama, harga);
+        Produk76 produk = new Produk76(nama, harga);
         System.out.println("\n=== INFORMASI PRODUK ===");
         produk.tampilkanInfo();
         input.close();

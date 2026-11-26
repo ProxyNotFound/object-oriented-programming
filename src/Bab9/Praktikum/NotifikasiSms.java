@@ -1,5 +1,4 @@
 package Bab9.Praktikum;
-
 public class NotifikasiSms implements Notifikasi {
     private String nomor;
     public NotifikasiSms(String nomor) {

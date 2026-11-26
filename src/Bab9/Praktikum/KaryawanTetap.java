@@ -1,6 +1,5 @@
 package Bab9.Praktikum;
-
-public class KaryawanTetap extends Karyawan implements PenerimaBonus {
+public class KaryawanTetap extends Karyawan {
     public KaryawanTetap(String nama, double gajiPokok) {
         super(nama, gajiPokok);
     }
@@ -8,7 +7,6 @@ public class KaryawanTetap extends Karyawan implements PenerimaBonus {
     public double hitungGaji() {
         return getGajiPokok();
     }
-    @Override
     public double hitungBonus() {
         return getGajiPokok() * 10 / 100;
     }

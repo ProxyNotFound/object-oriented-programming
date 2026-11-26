@@ -1,5 +1,4 @@
 package Bab9.Praktikum;
-
 public interface Notifikasi {
     String AWALAN = "[NOTIF] ";
     void kirim(String pesan);
